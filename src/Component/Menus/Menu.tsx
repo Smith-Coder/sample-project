@@ -2,14 +2,6 @@ import React from 'react';
 
 const Menu = () => {
   return (
-    // <nav>
-    //   <ul>
-    //     <li>Home</li>
-    //     <li>About</li>
-    //     <li>Services</li>
-    //     <li>Contact</li>
-    //   </ul>
-    // </nav>
     <nav>
       <ul className="nav flex-column">
         <li className="nav-item">

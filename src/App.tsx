@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
 import './App.css'
 import Menu from './Component/Menus/Menu'
 import Header from './Component/Header/Header'
@@ -10,9 +8,6 @@ import Content from './Component/Content/Content'
 function App() {
 
   return (
-    // <div>
-    //   {/* <Message></Message> */}
-    // </div>
     <div className="container text-center">
       <div className="row">
         <div className="col-md-12">

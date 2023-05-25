@@ -5,8 +5,9 @@ import Footer from './Component/Footer/Footer'
 import Content from './Component/Content/Content'
 
 
-function App() {
 
+function App() {
+  
   return (
     <div className="container text-center">
       <div className="row">

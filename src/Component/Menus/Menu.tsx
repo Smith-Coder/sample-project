@@ -1,11 +1,12 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 const Menu = () => {
   return (
     <nav>
       <ul className="nav flex-column">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="# ">Home</a>
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">About</a>

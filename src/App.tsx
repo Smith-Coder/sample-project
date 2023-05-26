@@ -7,24 +7,24 @@ import Content from './Component/Content/Content'
 
 
 function App() {
-  
+
   return (
     <div className="container text-center">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-lg-12">
           <Header></Header>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <Menu></Menu>
         </div>
-        <div className="col-md-8">
+        <div className="col-lg-8">
           <Content></Content>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-lg-12">
           <Footer></Footer>
         </div>
       </div>

@@ -27,9 +27,9 @@ function App() {
           <FavColor></FavColor>
           <Message text={text}></Message>
           {/* <Alert message='This is an alert message'></Alert> */}
-          <Alert>
+          {/* <Alert>
             <h1>Hello world</h1>
-          </Alert>
+          </Alert> */}
           <Button></Button>
         </div>
       </div>

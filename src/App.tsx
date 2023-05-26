@@ -3,7 +3,7 @@ import Menu from './Component/Menus/Menu'
 import Header from './Component/Header/Header'
 import Footer from './Component/Footer/Footer'
 import Content from './Component/Content/Content'
-
+import FavColor from './Component/Color/FavColor'
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
         </div>
         <div className="col-lg-8">
           <Content></Content>
+          <FavColor></FavColor>
         </div>
       </div>
       <div className="row">

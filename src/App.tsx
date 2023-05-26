@@ -7,6 +7,8 @@ import FavColor from './Component/Color/FavColor'
 import Message from './Component/Message/Message'
 function App() {
   const text = "hello world, good world"
+  let items = ["Redbull racing", "Ferrari", "mclaren", "AMG Petronas", "Alphine Racing", "Aston Martin"]
+  let heading = "F1 Racing"
   return (
     <div className="container text-center">
       <div className="row">
@@ -16,7 +18,7 @@ function App() {
       </div>
       <div className="row">
         <div className="col-lg-4">
-          <Menu></Menu>
+          <Menu heading={heading} items={items}></Menu>
         </div>
         <div className="col-lg-8">
           <Content></Content>

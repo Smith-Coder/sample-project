@@ -6,7 +6,6 @@ import { useState } from 'react';
 const Menu = () => {
   let items = ["Redbull racing", "Ferrari", "mclaren", "AMG Petronas", "Alphine Racing", "Aston Martin"]
   const [currentIndex, setIndex] = useState(-1);
-
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -18,7 +17,13 @@ const Menu = () => {
           <ul className="navbar-nav flex-column">
             {items.map((x, index) => (
               <li className="nav-item" key={index}>
-                <a className={currentIndex == index ? "nav-link active" : "nav-link"} aria-current="page" type='button' onClick={() => { setIndex(index) }}>{x}</a>
+                <a
+                  className={currentIndex == index
+                    ? "nav-link active"
+                    : "nav-link"}
+                  aria-current="page"
+                  type='button'
+                  onClick={() => { setIndex(index) }}>{x}</a>
               </li>
             ))}
           </ul>

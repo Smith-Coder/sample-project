@@ -4,10 +4,9 @@ import Header from './Component/Header/Header'
 import Footer from './Component/Footer/Footer'
 import Content from './Component/Content/Content'
 import FavColor from './Component/Color/FavColor'
-
-
+import Message from './Component/Message/Message'
 function App() {
-
+  const text = "hello world, good world"
   return (
     <div className="container text-center">
       <div className="row">
@@ -22,6 +21,7 @@ function App() {
         <div className="col-lg-8">
           <Content></Content>
           <FavColor></FavColor>
+          <Message text={text}></Message>
         </div>
       </div>
       <div className="row">

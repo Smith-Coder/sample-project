@@ -4,9 +4,6 @@ import Alert from '../Alert/Alert';
 function button() {
     let text = "Alert"
     const [showComponent, setComponent] = useState(false);
-    const handleAlertClose = () => {
-        setComponent(false);
-    };
     return (
         <div>
             <button
@@ -15,8 +12,8 @@ function button() {
                 onClick={() => showComponent == false ? setComponent(true) : setComponent(false)}
             >{text}</button>
 
-            {showComponent && <Alert onClose={handleAlertClose}>This is an alert</Alert>}
-        </div>
+            {showComponent && <Alert onClose={() => setComponent(false)}>This is an alert</Alert>}
+        </div >
     )
 }
 export default button
